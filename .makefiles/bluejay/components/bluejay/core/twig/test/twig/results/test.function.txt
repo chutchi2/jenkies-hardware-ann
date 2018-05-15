@@ -1,0 +1,36 @@
+
+========== Test 1 [ enable/disable/enable trace ]
+
+========== Test 2 [ test1 trace enabled ]
+Entering function: test1 [a],[b],[a],[],[],[],[],[],[]
+Leaving function : test1
+
+========== Test 3 [ test1 trace disabled ]
+
+========== Test 4 [ enable/disable/enable call stack trace ]
+
+========== Test 5 [ test1 call stack trace enabled ]
+Call Stack: test1 <makefile>
+Call Stack: <makefile>
+
+========== Test 6 [ test1 call stack trace disabled ]
+
+========== Test 7 [ enable/disable/enable trace all ]
+
+========== Test 8 [ test1 trace all enabled ]
+Call Stack: test1 <makefile>
+Entering function: test1 [e],[b],[e],[],[],[],[],[],[]
+Leaving function : test1
+Call Stack: <makefile>
+
+========== Test 9 [ test1 trace all disabled ]
+
+========== Test 10 [ test2 trace all enabled ]
+Call Stack: test2 <makefile>
+Entering function: test2 [f],[f],[g],[],[],[],[],[],[]
+ Call Stack: test1 test2 <makefile>
+ Entering function: test1 [f],[g],[f],[],[],[],[],[],[]
+ Leaving function : test1
+Call Stack: test2 <makefile>
+Leaving function : test2
+Call Stack: <makefile>

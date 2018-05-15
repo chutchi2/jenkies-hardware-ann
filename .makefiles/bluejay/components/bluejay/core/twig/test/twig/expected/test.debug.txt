@@ -1,0 +1,27 @@
+
+========== Test 1 [ DEBUG_ENTRY ]
+Entering test1,[a1],[b2],[c3],[d4],[e5],[f6],[g7],[h8],[i9]
+Entering test1,[],[b2],[ ],[d4],[],[f6],[],[ h8],[]
+
+========== Test 2 [ DEBUG_PRINT_ARGS ]
+$1 = [a1]
+$2 = [b2]
+$3 = [c3]
+$4 = [d4]
+$5 = [e5]
+$6 = [f6]
+$7 = [g7]
+$8 = [h8]
+$9 = [i9]
+
+$2 = [b2]
+$3 = [ ]
+$4 = [d4]
+$6 = [f6]
+$8 = [ h8]
+
+========== Test 3 [ print_var ]
+a = [a1]
+b = [b1 b2]
+c = [c1 c2 c3]
+d = [undefined]

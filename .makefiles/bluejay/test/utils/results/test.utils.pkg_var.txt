@@ -1,0 +1,14 @@
+
+========== Test 1 [ declare_pkg_var ]
+
+========== Test 2 [ pkg_var.set ]
+test.utils.pkg_var.mk:63: Package name is empty.
+test.utils.pkg_var.mk:67: Variable name is empty.
+
+========== Test 3 [ pkg_var.get ]
+test.utils.pkg_var.mk:91: Package name is empty.
+test.utils.pkg_var.mk:95: Variable name is empty.
+
+========== Test 4 [ pkg_var.get_all ]
+test.utils.pkg_var.mk:117: Package list name is empty.
+test.utils.pkg_var.mk:121: Variable name is empty.

@@ -1,0 +1,1264 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"strin",
+				"cstring\tstandard header"
+			],
+			[
+				"config",
+				"config_PyAudio"
+			],
+			[
+				"ex",
+				"execute_gen"
+			],
+			[
+				"m",
+				"m_frames"
+			],
+			[
+				"curr",
+				"curr_frame"
+			],
+			[
+				"num",
+				"num_bytes"
+			],
+			[
+				"mpeg_",
+				"mpeg_ts_frame"
+			],
+			[
+				"fin",
+				"find_frame"
+			],
+			[
+				"frame",
+				"frame_finder"
+			],
+			[
+				"file",
+				"m_file_size"
+			],
+			[
+				"cur",
+				"m_curr_fp"
+			],
+			[
+				"ts",
+				"m_ts_file"
+			],
+			[
+				"head",
+				"header_field1"
+			],
+			[
+				"header",
+				"header_fields"
+			],
+			[
+				"hea",
+				"header_fields"
+			],
+			[
+				"get",
+				"get_header"
+			],
+			[
+				"fina",
+				"finalFrameCount"
+			],
+			[
+				"fra",
+				"Framecount"
+			],
+			[
+				"fram",
+				"m_framecount"
+			],
+			[
+				"get_nr",
+				"get_nr_anon_mapped"
+			],
+			[
+				"get_nr_",
+				"get_nr_slab_unreclaimable"
+			],
+			[
+				"return",
+				"returnVector"
+			],
+			[
+				"m_x",
+				"m_xPos"
+			],
+			[
+				"if",
+				"if\tIf Condition"
+			],
+			[
+				"BO",
+				"boardInitialValue"
+			],
+			[
+				"inti",
+				"initialValue"
+			],
+			[
+				"init",
+				"initialValue"
+			],
+			[
+				"my",
+				"myBoard"
+			],
+			[
+				"set",
+				"setKnight"
+			],
+			[
+				"node",
+				"nodeChoice"
+			],
+			[
+				"curre",
+				"currentLowestNode"
+			],
+			[
+				"Curre",
+				"currentLowestCount"
+			],
+			[
+				"False",
+				"FALSE"
+			],
+			[
+				"adjust",
+				"adjustKnight"
+			],
+			[
+				"true",
+				"true"
+			],
+			[
+				"next",
+				"nextPossibleMoves"
+			],
+			[
+				"int",
+				"int"
+			],
+			[
+				"max",
+				"max"
+			],
+			[
+				"print",
+				"printBoard"
+			],
+			[
+				"plac",
+				"placeKnight"
+			],
+			[
+				"start",
+				"startX"
+			],
+			[
+				"p",
+				"position"
+			],
+			[
+				"calc",
+				"calcConstAdd"
+			],
+			[
+				"ne",
+				"nextValue"
+			],
+			[
+				"0x",
+				"0xFFFF"
+			],
+			[
+				"check",
+				"checksum"
+			],
+			[
+				"c",
+				"compressedVxImageLength"
+			],
+			[
+				"com",
+				"compressedVxImageLength"
+			],
+			[
+				"chec",
+				"checksum2"
+			],
+			[
+				"comp",
+				"compressedVxImageLengthBit"
+			],
+			[
+				"co",
+				"compressedVxImageLengthBit"
+			],
+			[
+				"lower",
+				"lowerWord"
+			],
+			[
+				"upp",
+				"upperWord"
+			],
+			[
+				"length",
+				"lengthZlibArea"
+			],
+			[
+				"pStart",
+				"pStartVxWorksImage"
+			],
+			[
+				"unkno",
+				"unknown_08"
+			],
+			[
+				"is",
+				"isCSV"
+			],
+			[
+				"apendOutput",
+				"appendOutputCSV"
+			],
+			[
+				"xref",
+				"xrefFile"
+			],
+			[
+				"zlib",
+				"zlibYield"
+			],
+			[
+				"File",
+				"Filename"
+			],
+			[
+				"read",
+				"readFile"
+			],
+			[
+				"adle",
+				"adlerLoc"
+			],
+			[
+				"adler",
+				"adlerNew"
+			],
+			[
+				"data",
+				"databin"
+			],
+			[
+				"sna",
+				"scannerz"
+			],
+			[
+				"star",
+				"start_addr"
+			],
+			[
+				"addr",
+				"addr_cur_sym"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "main.cpp",
+			"settings":
+			{
+				"buffer_size": 731,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/inc/QNN.hpp",
+			"settings":
+			{
+				"buffer_size": 522,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/src/QNN.cpp",
+			"settings":
+			{
+				"buffer_size": 3149,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "\n",
+			"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/EGateTypes.java",
+			"file_size": 2,
+			"file_write_time": 131708085009225849,
+			"settings":
+			{
+				"buffer_size": 1,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/HGate.cpp",
+			"settings":
+			{
+				"buffer_size": 1246,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Algorithms.pkg/src/GroversAlgorithm.cpp",
+			"settings":
+			{
+				"buffer_size": 1830,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/IGate.cpp",
+			"settings":
+			{
+				"buffer_size": 601,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/Qubit.cpp",
+			"settings":
+			{
+				"buffer_size": 1450,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QRegister.cpp",
+			"settings":
+			{
+				"buffer_size": 1305,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitPlus.cpp",
+			"settings":
+			{
+				"buffer_size": 409,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitOne.cpp",
+			"settings":
+			{
+				"buffer_size": 338,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitZero.cpp",
+			"settings":
+			{
+				"buffer_size": 337,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitMinus.cpp",
+			"settings":
+			{
+				"buffer_size": 417,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "Packages/User/qnn_build.sublime-build",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					""
+				],
+				[
+					"Packages/C++/C++ Single File.sublime-build",
+					"Run"
+				]
+			],
+			[
+				"Packages/C++/C++ Single File.sublime-build",
+				"Run"
+			]
+		],
+		[
+			[
+				[
+					"Packages/Makefile/Make.sublime-build",
+					""
+				],
+				[
+					"Packages/Makefile/Make.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/Makefile/Make.sublime-build",
+				""
+			]
+		],
+		[
+			[
+				[
+					"Packages/User/qnn_build.sublime-build",
+					""
+				],
+				[
+					"Packages/User/qnn_build.sublime-build",
+					"Clean"
+				]
+			],
+			[
+				"Packages/User/qnn_build.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "install",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 497.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/data/cm/qnn",
+		"/data/cm/qnn/source",
+		"/data/cm/qnn/source/common",
+		"/data/cm/qnn/source/packages",
+		"/data/cm/qnn/source/packages/NeuralNetwork",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg",
+		"/data/cm/qnn/source/packages/Quantum",
+		"/data/cm/qnn/source/packages/Quantum/Algorithms.pkg",
+		"/data/cm/qnn/source/packages/Quantum/Algorithms.pkg/src",
+		"/data/cm/qnn/source/packages/Quantum/ComplexNumber.pkg",
+		"/data/cm/qnn/source/packages/Quantum/ComplexNumber.pkg/inc",
+		"/data/cm/qnn/source/packages/Quantum/ComplexNumber.pkg/src",
+		"/data/cm/qnn/source/packages/Quantum/QubitGate.pkg",
+		"/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src"
+	],
+	"file_history":
+	[
+		"/data/cm/qnn/source/packages/Quantum/Algorithms.pkg/src/QuantumAlgorithms.java",
+		"/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/IdentityGate.java",
+		"/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/IGate.cpp",
+		"/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QRegister.cpp",
+		"/data/cm/qnn/source/packages/Quantum/ComplexNumber.pkg/src/ComplexMath.java",
+		"/data/cm/qnn/source/packages/NeuralNetwork/nn_runner.pkg/inc/NNRunner.hpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/nn_runner.pkg/src/NNRunner.cpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/inc/NNRunner.hpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/src/NNRunner.cpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/nn.pkg/inc/NeuralNetwork.hpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/nn_runner.pkg/package.mk",
+		"/data/cm/qnn/source/packages/NeuralNetwork/nn.pkg/src/NeuralNetwork.cpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/inc/NeuralNetwork.hpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/src/NeuralNetwork.cpp",
+		"/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/src/QuantumNeuralNetwork.cpp",
+		"/home/codyhutchins/.config/sublime-text-3/Packages/User/qnn_build.sublime-build",
+		"/data/cm/qnn/source/common/q3.root.pkg/inc/q3.root.hpp",
+		"/data/cm/qnn/source/common/q3.root.pkg/inc/q3.types.hpp",
+		"/data/cm/qnn/build/makefile",
+		"/data/cm/qnn/source/packages/qnn.pkg/package.mk",
+		"/data/cm/qnn/source/programs/qnn/package.mk",
+		"/data/cm/qnn/main.cpp",
+		"/data/cm/qnn/source/packages/q3.pkg/package.mk",
+		"/data/cm/qnn/source/packages/q3.bar.pkg/package.mk",
+		"/data/cm/qnn/Makefile",
+		"/home/codyhutchins/cpp_prac/ann_c++/makefile",
+		"/home/codyhutchins/cpp_prac/ann_c++/main.cpp",
+		"/home/codyhutchins/cpp_prac/ann_c++/QuantumNeuralNetwork.hpp",
+		"/home/codyhutchins/cpp_prac/ann_c++/QuantumNeuralNetwork.cpp",
+		"/tmp/mozilla_codyhutchins0/makefile.3",
+		"/home/codyhutchins/CurrentProject/daily_logs/April_Daily_Logs",
+		"/home/codyhutchins/Downloads/AraujoClass/Part2/ReadingMaterial/ComputationalTopology_class_link.txt",
+		"/home/codyhutchins/Downloads/AraujoClass/Part2/ReadingMaterial/AlgebraicGeometry_YoutubeLinks.txt",
+		"/home/codyhutchins/Downloads/AraujoClass/Part2/Midterm/midterm_links.txt",
+		"/home/codyhutchins/Downloads/AraujoClass/Part2/Midterm/midterm_description.txt",
+		"/home/codyhutchins/Downloads/AraujoClass/DiffEQ_reference.txt",
+		"/home/codyhutchins/Desktop/Action_Items_FileIO_Foundations",
+		"/home/codyhutchins/Desktop/Action Items 5-2-2018",
+		"/home/codyhutchins/c++_practice/cuda/cuda_test.c",
+		"/home/codyhutchins/Downloads/eigen/INSTALL",
+		"/home/codyhutchins/Desktop/Action Items 4-26-2018",
+		"/home/codyhutchins/Desktop/Action Items 4-24-2018",
+		"/home/codyhutchins/Desktop/Action Items 4-16-2018",
+		"/home/codyhutchins/Desktop/Action Items 4-11-2018",
+		"/home/codyhutchins/c++_practice/rtaudio-master/install.txt",
+		"/home/codyhutchins/c++_practice/c++_refactor/openauto/source/programs/autoapp/main.cpp",
+		"/home/codyhutchins/c++_practice/c++_refactor/openauto/source/programs/autoapp/autoapp.cpp",
+		"/home/codyhutchins/c++_practice/openauto_clean/cmake_modules/Findrtaudio.cmake",
+		"/home/codyhutchins/c++_practice/openauto_clean/CMakeLists.txt",
+		"/home/codyhutchins/c++_practice/openauto/source/programs/autoapp/main.cpp",
+		"/home/codyhutchins/c++_practice/openauto/assets/resources.qrc",
+		"/home/codyhutchins/c++_practice/openauto/.gitignore",
+		"/home/codyhutchins/Downloads/fader/.gitignore",
+		"/home/codyhutchins/c++_practice/openauto/build/debug/makefile",
+		"/home/codyhutchins/c++_practice/openauto/source/packages/Common/Types.h",
+		"/home/codyhutchins/c++_practice/openauto/source/packages/aasdk/f1x.Channel.pkg/AV/package.mk",
+		"/home/codyhutchins/c++_practice/openauto/source/programs/package.mk",
+		"/home/codyhutchins/c++_practice/openauto/cmake_modules/Findrtaudio.cmake",
+		"/home/codyhutchins/c++_practice/openauto/build/makefile",
+		"/home/codyhutchins/c++_practice/openauto/source/packages/f1x.autoapp.pkg/f1x.Configuration.pkg/package.mk",
+		"/home/codyhutchins/c++_practice/openauto/CMakeCache.txt",
+		"/home/codyhutchins/c++_practice/openauto/RtAudio.h",
+		"/home/codyhutchins/Downloads/RtAudio_8h_source.html",
+		"/home/codyhutchins/SCHS--Senior Project Aid/sound_gen_lcash/main.py",
+		"/home/codyhutchins/SCHS--Senior Project Aid/sound_gen_lcash/audio_example.py",
+		"/home/codyhutchins/CurrentProject/Daily Logs/April_Daily_Logs",
+		"/home/codyhutchins/SCHS--Senior Project Aid/sound_gen_lcash/white_noise.py",
+		"/home/codyhutchins/SCHS--Senior Project Aid/sound_gen_lcash/tone_gen_interactive.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/ai_passthroug.txt",
+		"/home/codyhutchins/SCHS--Senior Project Aid/SoundProjectEDD/SoundTool/README.md",
+		"/home/codyhutchins/SCHS--Senior Project Aid/SoundProjectEDD/Examples/README.md",
+		"/home/codyhutchins/SCHS--Senior Project Aid/SoundProjectEDD/Documentation/README.md",
+		"/home/codyhutchins/SCHS--Senior Project Aid/SoundProjectEDD/README.md",
+		"/home/codyhutchins/Templates/untitled.txt",
+		"/home/codyhutchins/CurrentProject/Daily Logs/March_Daily_Logs",
+		"/home/codyhutchins/CurrentProject/CrossPress/deframe_python/mpeg_ts_frame.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/deframe_python/file_io.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/deframe_python/mpeg_ts_deframe.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/deframe_python/mpeg_ts_solution_two_deframe.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/mpeg_ts_solution_two_deframe.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/interpreted_mpeg_ts_deframe.c",
+		"/home/codyhutchins/CurrentProject/CrossPress/interpreted_mpeg_ts_deframe.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/exact_mpeg_ts_deframe.py",
+		"/home/codyhutchins/CurrentProject/CrossPress/MPEG_deframe_prototype.py",
+		"/home/codyhutchins/CurrentProject/Daily Logs/Febraury_Daily_Logs",
+		"/home/codyhutchins/CurrentProject/Daily Logs/Febraury_Daily_Logs (copy)",
+		"/home/codyhutchins/Desktop/CurrentProject/CrossPress/MPEG_deframe_prototype.py",
+		"/home/codyhutchins/Desktop/CurrentProject/CrossPress/Project Notes -- MPEG-TS De-framing.txt",
+		"/home/codyhutchins/Desktop/CurrentProject/Daily Logs/Febraury_Daily_Logs",
+		"/home/codyhutchins/Desktop/CurrentProject/Daily Logs/Daily Logs",
+		"/home/codyhutchins/Desktop/centos6_crosspress/provisioning/projects/crosspress/Mac_stats_checkout.sh",
+		"/usr/lib/vmware/modules/source/vmmon-only/linux/hostif.c",
+		"/usr/lib/vmware-installer/2.1.0/python/pygtk/dsextras.py",
+		"/home/codyhutchins/Downloads/VMware-Player-12.5.8-7098237.x86_64.bundle",
+		"/home/codyhutchins/Cosmic U/simpleann.py",
+		"/home/codyhutchins/chess_project/Board.cpp",
+		"/home/codyhutchins/Cosmic U/2layer_ann.py",
+		"/home/codyhutchins/Desktop/linux_reload_greg.txt",
+		"/home/codyhutchins/Desktop/network share access/cosmicnas_backup",
+		"/home/codyhutchins/Desktop/centos6-vagrant/Vagrantfile",
+		"/home/codyhutchins/Desktop/mount_cosmicfs1",
+		"/home/codyhutchins/.config/sublime-text-3/Packages/User/Package Control.sublime-settings",
+		"/home/codyhutchins/chess_project/Knight.hpp",
+		"/home/codyhutchins/chess_project/Knight.cpp",
+		"/home/codyhutchins/chess_project/Board.hpp",
+		"/home/codyhutchins/chess_project/knightsTour.cpp",
+		"/home/codyhutchins/Desktop/cosmicnas_engineer",
+		"/home/codyhutchins/Desktop/network_share.sh",
+		"/home/codyhutchins/Desktop/centos6-vagrant/provisioning/contrib/network_shares/cosmicnas_engineer",
+		"/home/codyhutchins/chess_project/ChessPiece.hpp",
+		"/home/codyhutchins/chess_project/ChessPiece.cpp",
+		"/home/codyhutchins/chess_project/untitled.cpp",
+		"/home/codyhutchins/chess_project/chess.cpp",
+		"/home/codyhutchins/Desktop/blarg.html",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/thunderbolt/nhi_regs.h",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/thunderbolt/nhi.h",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/thunderbolt/nhi.c",
+		"/home/codyhutchins/Desktop/my_pawn_storm/git_repos/codyh-spot/d_fallback_research/scripts/sub_81801058_checksum.py",
+		"/CosmicFS1/public/Engineering/Individuals/Cody/mount_cosmicfs1",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/thunderbolt/Makefile",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/thunderbolt/Kconfig",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/Makefile",
+		"/home/codyhutchins/Desktop/kernelSource/linux-2.6.32-696.10.2.el6/drivers/Kconfig",
+		"/home/codyhutchins/Desktop/my_pawn_storm/git_repos/codyh-spot/d_fallback_research/psuedocode/sub_81801058.c",
+		"/home/codyhutchins/Desktop/my_pawn_storm/git_repos/codyh-spot/d_fallback_research/scripts/find_zlib.py",
+		"/home/codyhutchins/Desktop/centos6-vagrant/support/vagrant_helper.rb",
+		"/home/codyhutchins/python.py",
+		"/home/codyhutchins/Desktop/my_pawn_storm/git_repos/codyh-spot/d_fallback_research/scripts/udp_practice.py"
+	],
+	"find":
+	{
+		"height": 61.0
+	},
+	"find_in_files":
+	{
+		"height": 98.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"{\n",
+			"public ",
+			"this.registerSize",
+			"mod",
+			"qubitVector",
+			"sigInput",
+			"const",
+			"QuantumNeuralNetwork",
+			"}\n",
+			"inputRunner",
+			"m_epsilon",
+			"cIn",
+			"m_V",
+			"m_W",
+			"m_c",
+			"f_theta",
+			"errorValue",
+			"f_theta",
+			"  ",
+			"************",
+			" ([0-9])\\w+",
+			" ([1-9])\\w+",
+			"execute_gen",
+			"p",
+			"get_byte",
+			"m_ts_file",
+			"get_byte",
+			"m_ts_file",
+			"16",
+			"EOF",
+			"getByte",
+			"dataByte",
+			"next_byte",
+			"global_page_state",
+			"lockedPages",
+			"global",
+			"global_page_stat",
+			"global_page_state",
+			"ChessPiece",
+			"endl",
+			"Knight",
+			"    \n",
+			"void",
+			"Kinght",
+			"\t",
+			"pickSurroundingNodes",
+			"picked",
+			"min",
+			"max",
+			"myKnight[1]",
+			"myKnight[0]",
+			"myKnight[0]\n",
+			";\n",
+			"pickSurroundingNodes",
+			"</b>",
+			"<b>",
+			"+",
+			"compressedVxImageLength",
+			"temp",
+			"\t\tif ((compressedVxImageLength & 0xFFFF) == 0):\n\t\t\tcheck = (checksum >> 16)\n\t\t\tzum = (checksum & 0xFFFF)\n\t\t\tchecksum = check + zum",
+			"\t\t\tif ((compressedVxImageLength & 0xFFFF) == 0):\n\t\t\t\tcheck = (checksum >> 16)\n\t\t\t\tzum = (checksum & 0xFFFF)\n\t\t\t\tchecksum = check + zum",
+			"i =",
+			"i +",
+			"[i",
+			"i",
+			"i\n",
+			"))\n",
+			"\t",
+			"#",
+			"//",
+			"adler",
+			"fname",
+			"35",
+			"server",
+			"forward",
+			"str",
+			"\"",
+			"symbolRateString",
+			"recv_symbol_rate",
+			"hem",
+			"addr",
+			"end",
+			"mem_loc",
+			"\")\n",
+			"offset",
+			"ofset",
+			")\n",
+			"ro",
+			"num_pattern",
+			"addr_diff",
+			"ret",
+			"pdb"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+			"",
+			"m_registerSize",
+			"m_qubitVector",
+			"perceptron",
+			"NeuralNetwork",
+			"m_outputLayer",
+			"m_weightLayer",
+			"m_inputLayer",
+			"",
+			"get_bytes",
+			"m_file_handle",
+			"data_byte",
+			"Knight",
+			"    ",
+			"returnSurroundingNodes",
+			"myMin",
+			"myMax",
+			"yMove",
+			"xMove",
+			"</h1>",
+			"<h1>",
+			"",
+			"nextValue",
+			"\t\tcheckLenLowerHalf(compressedVxImageLength,checksum)",
+			"\t\t\tcheckLenLowerHalf(compressedVxImageLength,checksum)",
+			"pCompressedVxImage =",
+			"pCompressedVxImage +",
+			"[pCompressedVxImage",
+			"pCompressedVxImage",
+			"    ",
+			"*",
+			";",
+			" ",
+			"location",
+			"ml"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"folders":
+	[
+		{
+			"path": "/data/cm/qnn"
+		}
+	],
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "main.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 731,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								371,
+								371
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 12,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/inc/QNN.hpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 522,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/data/cm/qnn/source/packages/NeuralNetwork/qnn.pkg/src/QNN.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3149,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								949,
+								949
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/EGateTypes.java",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/HGate.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1246,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								226,
+								226
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/data/cm/qnn/source/packages/Quantum/Algorithms.pkg/src/GroversAlgorithm.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1830,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								283,
+								283
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/data/cm/qnn/source/packages/Quantum/QubitGate.pkg/src/IGate.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 601,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/Qubit.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1450,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QRegister.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1305,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								751,
+								751
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitPlus.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 409,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								236,
+								236
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 10,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitOne.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 338,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								235,
+								235
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 9,
+					"type": "text"
+				},
+				{
+					"buffer": 11,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitZero.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								233,
+								233
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 10,
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/data/cm/qnn/source/packages/Quantum/Qubit.pkg/src/QubitMinus.cpp",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								234,
+								234
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Java/Java.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 11,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 29.0
+	},
+	"input":
+	{
+		"height": 43.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 35.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/User/qnn_build.sublime-build",
+	"project": "",
+	"replace":
+	{
+		"height": 114.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 317.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

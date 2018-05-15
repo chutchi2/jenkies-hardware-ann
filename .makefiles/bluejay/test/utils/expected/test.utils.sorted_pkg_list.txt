@@ -1,0 +1,18 @@
+
+========== Test 1 [ declare_sorted_pkg_list ]
+
+========== Test 2 [ sorted_pkg_list.add ]
+test.utils.sorted_pkg_list.mk:67: Package name is empty.
+test.utils.sorted_pkg_list.mk:71: List name is empty.
+
+========== Test 3 [ sorted_pkg_list.get ]
+test.utils.sorted_pkg_list.mk:95: Package name is empty.
+test.utils.sorted_pkg_list.mk:99: List name is empty.
+
+========== Test 4 [ sorted_pkg_list.get_all ]
+test.utils.sorted_pkg_list.mk:121: Package list name is empty.
+test.utils.sorted_pkg_list.mk:125: List name is empty.
+
+========== Test 5 [ sorted_pkg_list.find ]
+test.utils.sorted_pkg_list.mk:146: Package name is empty.
+test.utils.sorted_pkg_list.mk:150: List name is empty.

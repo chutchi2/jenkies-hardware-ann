@@ -1,0 +1,11 @@
+
+========== Test 1 [ declare_sorted_list ]
+
+========== Test 2 [ sorted_list.add ]
+test.utils.sorted_list.mk:52: List name is empty.
+
+========== Test 3 [ sorted_list.get ]
+test.utils.sorted_list.mk:76: List name is empty.
+
+========== Test 4 [ sorted_list.find ]
+test.utils.sorted_list.mk:94: List name is empty.

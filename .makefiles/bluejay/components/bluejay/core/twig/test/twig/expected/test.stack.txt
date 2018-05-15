@@ -1,0 +1,13 @@
+
+========== Test 1 [ Empty stack ]
+test.stack.mk:45: twig.stack.pop: [Stack name: myStack] Popping an empty stack!
+
+========== Test 2 [ Push/pop single value ]
+
+========== Test 3 [ Push/pop multiple values ]
+
+========== Test 4 [ Push/pop multiple times ]
+
+========== Test 5 [ Find items ]
+
+========== Test 6 [ Find item count ]

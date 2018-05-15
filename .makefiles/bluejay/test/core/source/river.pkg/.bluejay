@@ -1,0 +1,16 @@
+#-------------------------------------------------------------------------------
+# File: .bluejay
+#
+# Description:
+#
+#-------------------------------------------------------------------------------
+#PACKAGE := $(DIR_NAME)
+
+$(call ut.assert_equal,../source/river.pkg,$(PACKAGE_DIR))
+$(call ut.assert_equal,river.pkg,$(DIR_NAME))
+$(call ut.assert_equal,river,$(PACKAGE))
+
+# Not what I would expect!
+$(call ut.assert_equal,try_function,$(0))
+$(call ut.assert_equal,package.add_package,$(1))
+$(call ut.assert_equal,$(PACKAGE_DIR)/.bluejay,$(2))

@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------------
+# Filename: run
+#
+# Description:
+# Executes unit tests.
+#
+# Usage:
+# run
+# run tests/test
+# run tests/test1 tests/test2 ...
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $1 - tests
+#-------------------------------------------------------------------------------
+function run_tests
+{
+   local tests=$1
+
+   pushd tests &> /dev/null
+
+      for test in $tests; do
+         local t=${test##*/}
+         if [ -e "$t" ]; then
+            echo "Running test '$t'."
+            make -f $t &> ../results/${t%.mk}.txt
+         else
+            echo "Test '$t' not found."
+         fi
+      done
+
+   popd &> /dev/null
+}
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $* - command line arguments
+#-------------------------------------------------------------------------------
+function main
+{
+   local tests=$*
+
+   if [ -z "$tests" ]; then
+      tests=$(ls tests/test.*.mk)
+   fi
+
+   run_tests "$tests"
+}
+
+#-------------------------------------------------------------------------------
+main $*

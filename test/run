@@ -1,0 +1,197 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------------
+# Filename: run
+#
+# Description:
+# Executes the specified unit tests.
+#
+# Paths that contain a directory beginning with an underscore will be ignored.
+# This behavior can be overriden by specifying the path explicitly or by using
+# the '--all' option.
+#
+# All unit tests will be executed if none are specified.
+#
+# Unit tests that aren't built will be skipped.
+#
+# Usage:
+# build --help
+# build
+# build [options]
+# build [directories] [options] -- [directories]
+#-------------------------------------------------------------------------------
+TEST_BASE_DIR=$(cd "${0%/*}" && pwd)
+source "$TEST_BASE_DIR/.scripts/unit_test.sh"
+
+UNIT_TEST_BIN_DIR=.build/bin
+EXIT_CODE=0
+
+E_SKIPPED=65
+
+#-------------------------------------------------------------------------------
+# Print command line usage.
+#
+# Arguments:
+# None
+#-------------------------------------------------------------------------------
+function print_usage()
+{
+   echo "Usage:"
+   echo "${0##*/} --help"
+   echo "${0##*/}"
+   echo "${0##*/} [options]"
+   echo "${0##*/} [directories] [options] -- [directories]"
+   echo ""
+   echo "Options not consumed by this script will be passed on to the unit test."
+   echo ""
+   echo "Options:"
+   echo "--all Include disabled unit tests"
+   echo ""
+   echo "All arguments after '--' will be considered directories. This may be"
+   echo "necessary to avoid confusion with options passed to the unit test."
+   echo ""
+   echo "All unit tests will be executed if none are specified."
+}
+
+#-------------------------------------------------------------------------------
+# Print unit test summary.
+#
+# Arguments:
+# $1 - total unit tests
+# $2 - number of unit tests that passed
+# $3 - number of unit tests that failed
+# $4 - number of unit tests that were skipped
+#-------------------------------------------------------------------------------
+function print_unit_test_summary()
+{
+   local total_unit_tests=$1
+   local pass_count=$2
+   local fail_count=$3
+   local skip_count=$4
+   
+   print_separator
+   echo " Unit Test Summary"
+   print_line
+   printf "Passed : %3d\n" $pass_count
+   printf "Failed : %3d\n" $fail_count
+   printf "Skipped: %3d\n" $skip_count
+   print_line 12
+   printf "Total  : %3d\n" $total_unit_tests
+}
+
+#-------------------------------------------------------------------------------
+# Execute a unit test.
+#
+# Arguments:
+# $1 - base directory of the unit test
+#-------------------------------------------------------------------------------
+function run_unit_test()
+{
+   local unit_test_dir=$1
+   local unit_test_name=${unit_test_dir##*/}
+   local build_dir=$unit_test_dir/$UNIT_TEST_BUILD_DIR
+
+   echo "Unit test dir: $build_dir"
+
+   # Look for the executable in the unit test build directory
+   if [ -x "$build_dir/$UNIT_TEST_BIN_DIR/$unit_test_name" ]; then
+
+      local unit_test_exe="$UNIT_TEST_BIN_DIR/$unit_test_name"
+      echo "Unit test exe: $build_dir/$unit_test_exe"
+
+   # Look for the executable in the common build directory
+   elif [ -x "$TEST_BASE_DIR/$UNIT_TEST_BIN_DIR/$unit_test_name" ]; then
+
+      local unit_test_exe="$TEST_BASE_DIR/$UNIT_TEST_BIN_DIR/$unit_test_name"
+      echo "Unit test exe: ${unit_test_exe#$TEST_BASE_DIR/}"
+
+   # Couldn't find the executable
+   else
+
+      # This doesn't look like a valid unit test directory
+      if [ ! -e "$build_dir/makefile" ]; then
+         echo "This does not appear to be a valid unit test directory."
+
+      # Otherwise assume that the unit test wasn't built
+      else
+         echo "This unit test has not been built."
+      fi
+
+      echo "Skipping..."
+      return "$E_SKIPPED"
+
+   fi
+
+   # Print the gtest args
+   echo "gtest args: ${ARGS[@]}"
+   echo ""
+
+   # Execute the unit test
+   pushd "$build_dir" &> /dev/null
+      "$unit_test_exe" "${ARGS[@]}"
+      local status=$?
+   popd &> /dev/null
+   
+   return $status
+}
+
+#-------------------------------------------------------------------------------
+# Run unit tests.
+#
+# Arguments:
+# None
+#-------------------------------------------------------------------------------
+function run_unit_tests()
+{
+   local total_unit_tests=0
+   local pass_count=0
+   local fail_count=0
+   local skip_count=0
+
+   # Find unit tests
+   get_unit_tests
+
+   # Execute each unit test
+   for unit_test in "${UNIT_TESTS[@]}"; do
+      print_separator
+      run_unit_test "${unit_test}"
+      local status=$?
+      
+      if [ "$status" -eq 0 ]; then
+         let pass_count+=1
+      elif [ "$status" -eq $E_SKIPPED ]; then
+         let skip_count+=1
+      else
+         let fail_count+=1
+         EXIT_CODE=$status
+      fi
+      
+      let total_unit_tests+=1
+   done
+   
+   print_unit_test_summary \
+      "$total_unit_tests" \
+      "$pass_count" \
+      "$fail_count" \
+      "$skip_count"
+}
+
+#-------------------------------------------------------------------------------
+# Entry point to the program.
+#
+# Arguments:
+# $@ - command line arguments
+#-------------------------------------------------------------------------------
+function main()
+{
+   pushd "$TEST_BASE_DIR" &> /dev/null
+
+      parse_cmd_line "$@"
+      run_unit_tests
+      echo ""
+
+   popd &> /dev/null
+}
+
+#-------------------------------------------------------------------------------
+main "$@"
+exit $EXIT_CODE

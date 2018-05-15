@@ -1,0 +1,12 @@
+_*
+*.d
+*.o
+*.a
+*.map
+*.exe
+*.stackdump
+core.*
+.cproject
+.project
+.settings/
+.build/

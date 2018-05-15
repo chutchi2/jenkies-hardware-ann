@@ -1,0 +1,21 @@
+
+========== Test 1 [ cle.find_files ]
+find: ‘../source/folder_not_found/*’: No such file or directory
+find: ‘../source/empty/*’: No such file or directory
+
+========== Test 2 [ cle.find_files A_DIR ]
+find: ‘../source/a/file_not_found’: No such file or directory
+find: ‘../source/a/*.foo’: No such file or directory
+
+========== Test 3 [ cle.find_files A_DIR B_DIR ]
+find: ‘../source/a/*.’: No such file or directory
+find: ‘../source/b/*.’: No such file or directory
+
+========== Test 4 [ cle.find_files_ex ]
+find: ‘../source/folder_not_found’: No such file or directory
+
+========== Test 5 [ cle.find_files_ex A_DIR ]
+
+========== Test 6 [ cle.find_files_ex B_DIR ]
+
+========== Test 7 [ cle.find_files_ex A_DIR B_DIR ]

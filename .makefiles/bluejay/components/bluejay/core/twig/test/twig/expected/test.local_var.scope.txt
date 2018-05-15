@@ -1,0 +1,11 @@
+
+========== Test 1 [ get_list_name ]
+
+========== Test 2 [ add_var/clear single scope - no predefined values ]
+
+========== Test 3 [ add_var/clear single scope - with predefined values ]
+
+========== Test 4 [ add same variable twice ]
+test.local_var.scope.mk:175: twig.local_var.scope.add_var: [Scope: <empty>, Variable: a] Variable already defined in this scope.
+
+========== Test 5 [ add_var/clear multiple scope ]

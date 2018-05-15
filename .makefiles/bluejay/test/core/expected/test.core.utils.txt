@@ -1,0 +1,20 @@
+
+========== Test 1 [ expand ]
+
+========== Test 2 [ compound_expand ]
+
+========== Test 3 [ path ]
+
+========== Test 4 [ find_files ]
+
+========== Test 5 [ find_files A_DIR ]
+
+========== Test 6 [ find_files A_DIR B_DIR ]
+
+========== Test 7 [ find_files_ex ]
+
+========== Test 8 [ find_files_ex A_DIR ]
+
+========== Test 9 [ find_files_ex B_DIR ]
+
+========== Test 10 [ find_files_ex A_DIR B_DIR ]

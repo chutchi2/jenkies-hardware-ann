@@ -1,0 +1,122 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------------
+# Filename: build
+#
+# Description:
+# Executes gnu make on each unit test specified.
+#
+# Paths that contain a directory beginning with an underscore will be ignored.
+# This behavior can be overriden by specifying the path explicitly or by using
+# the '--all' option.
+#
+# All unit tests will be built if none are specified.
+#
+# Usage:
+# build --help
+# build
+# build [options]
+# build [directories] [options] -- [directories]
+#-------------------------------------------------------------------------------
+TEST_BASE_DIR=$(cd "${0%/*}" && pwd)
+source "$TEST_BASE_DIR/.scripts/unit_test.sh"
+
+EXIT_CODE=0
+
+#-------------------------------------------------------------------------------
+# Print command line usage.
+#
+# Arguments:
+# None
+#-------------------------------------------------------------------------------
+function print_usage()
+{
+   echo "Usage:"
+   echo "${0##*/} --help"
+   echo "${0##*/}"
+   echo "${0##*/} [options]"
+   echo "${0##*/} [directories] [options] -- [directories]"
+   echo ""
+   echo "Options not consumed by this script will be passed on to gnu make."
+   echo ""
+   echo "Options:"
+   echo "--all Include disabled unit tests"
+   echo ""
+   echo "All arguments after '--' will be considered directories. This may be"
+   echo "necessary to avoid confusion with options passed to gnu make."
+   echo ""
+   echo "All unit tests will be built if none are specified."
+}
+
+#-------------------------------------------------------------------------------
+# Build a unit test.
+#
+# Arguments:
+# $1 - base directory of the unit test
+#-------------------------------------------------------------------------------
+function build_unit_test()
+{
+   local unit_test_dir=$1
+   local build_dir=$unit_test_dir/$UNIT_TEST_BUILD_DIR
+
+   print_header_1 "$unit_test_dir"
+
+   # Verify this is a valid unit test
+   if [ ! -e "$build_dir/makefile" ]; then
+      echo "This does not appear to be a valid unit test directory."
+      echo "Skipping..."
+      return
+   fi
+
+   # Execute the unit test
+   pushd "$build_dir" &> /dev/null
+      make "${ARGS[@]}"
+      local status=$?
+   popd &> /dev/null
+
+   return $status
+}
+
+#-------------------------------------------------------------------------------
+# Build unit tests.
+#
+# Arguments:
+# None
+#-------------------------------------------------------------------------------
+function build_unit_tests()
+{
+   # Find unit tests
+   get_unit_tests
+
+   # Execute each unit test
+   for unit_test in "${UNIT_TESTS[@]}"; do
+      print_separator
+      build_unit_test "${unit_test}"
+      local status=$?
+
+      if [ "$status" -ne 0 ]; then
+         EXIT_CODE=$status
+         break
+      fi
+   done
+}
+
+#-------------------------------------------------------------------------------
+# Entry point to the program.
+#
+# Arguments:
+# $@ - command line arguments
+#-------------------------------------------------------------------------------
+function main()
+{
+   pushd "$TEST_BASE_DIR" &> /dev/null
+
+      parse_cmd_line "$@"
+      build_unit_tests
+      echo ""
+
+   popd &> /dev/null
+}
+
+#-------------------------------------------------------------------------------
+main "$@"
+exit $EXIT_CODE

@@ -1,0 +1,11 @@
+
+========== Test 1 [ get_stack_name ]
+
+========== Test 2 [ get_holder_name ]
+
+========== Test 3 [ get_new_holder_name ]
+
+========== Test 4 [ push_value/pop_value ]
+test.local_var.value_stack.mk:130: twig.local_var.value_stack.pop_value: [Variable: myVar] Popping an empty stack!
+
+========== Test 5 [ Push explicit value ]

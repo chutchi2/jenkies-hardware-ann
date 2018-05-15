@@ -1,0 +1,13 @@
+
+========== Test 1 [ cpp.add_source_files ]
+test.cpp.source_files.mk:39: Package name is empty.
+
+========== Test 2 [ cpp.find_source_files ]
+
+========== Test 3 [ cpp.discover_source_files ]
+test.cpp.source_files.mk:97: Package name is empty.
+
+========== Test 4 [ cpp.find_source_files_ex ]
+
+========== Test 5 [ cpp.discover_source_files_ex ]
+test.cpp.source_files.mk:150: Package name is empty.

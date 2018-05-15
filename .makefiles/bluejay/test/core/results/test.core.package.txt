@@ -1,0 +1,5 @@
+
+========== Test 1 [ package.add_package ]
+test.core.package.mk:41: '../source/empty/package.mk': File not found
+
+========== Test 2 [ package.import_packages ]

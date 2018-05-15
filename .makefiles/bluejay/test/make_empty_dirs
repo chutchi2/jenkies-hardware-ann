@@ -1,0 +1,33 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------------
+# Filename: make_empty_dirs
+#
+# Description:
+# Create empty directories needed for unit tests.
+#
+# Git does not allow empty directories to be checked in. There are well known
+# workarounds for this issue, but all of them require a file to be placed in the
+# otherwise empty directory. Adding this file would prevent specific unit tests
+# from working as intended.
+#
+# Therefore, the only alternative is to run this script to create the
+# directories after cloning from a git repository.
+#
+# Usage:
+# make_empty_dirs
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $* - command line arguments
+#-------------------------------------------------------------------------------
+function main
+{
+   mkdir core/source/a/.bar/
+   mkdir core/source/a/files.cpp
+   mkdir core/source/empty
+   mkdir cpp/source/empty
+}
+
+#-------------------------------------------------------------------------------
+main $*

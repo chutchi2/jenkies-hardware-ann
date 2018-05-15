@@ -1,0 +1,23 @@
+
+========== Test 1 [ cpp.find_header_files ]
+
+========== Test 2 [ cpp.find_header_files_ex ]
+
+========== Test 3 [ cpp.find_includes ]
+
+========== Test 4 [ cpp.find_includes_ex ]
+
+========== Test 5 [ cpp.add_public_includes ]
+test.cpp.include_paths.mk:117: Package name is empty.
+
+========== Test 6 [ cpp.add_private_includes ]
+test.cpp.include_paths.mk:145: Package name is empty.
+
+========== Test 7 [ cpp.discover_public_includes ]
+test.cpp.include_paths.mk:175: Package name is empty.
+
+========== Test 8 [ cpp.discover_public_includes_ex ]
+test.cpp.include_paths.mk:209: Package name is empty.
+
+========== Test 9 [ cpp.discover_private_includes_ex ]
+test.cpp.include_paths.mk:236: Package name is empty.

@@ -1,0 +1,61 @@
+#!/usr/bin/env bash
+#-------------------------------------------------------------------------------
+# Filename: run
+#
+# Description:
+# Executes test suites.
+#
+# Usage:
+# run
+# run testsuite
+# run testsuite1 testsuite2 ...
+#-------------------------------------------------------------------------------
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $1 - test suite
+#-------------------------------------------------------------------------------
+function run_test_suite
+{
+   local dir=$1
+
+   pushd $dir &> /dev/null
+      ./run
+   popd &> /dev/null
+}
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $1 - test suites
+#-------------------------------------------------------------------------------
+function run_test_suites
+{
+   local test_suites=$1
+
+   for test_suite in $test_suites; do
+      if [ -e "$test_suite/run" ]; then
+         echo "===== Test Suite '${test_suite%/}'"
+         run_test_suite "${test_suite%/}"
+      else
+         echo "===== Test Suite '$test_suite' not found."
+      fi
+   done
+}
+
+#-------------------------------------------------------------------------------
+# Arguments:
+# $* - command line arguments
+#-------------------------------------------------------------------------------
+function main
+{
+   local test_suites=$*
+
+   if [ -z "$test_suites" ]; then
+      test_suites=$(ls -d */)
+   fi
+
+   run_test_suites "$test_suites"
+}
+
+#-------------------------------------------------------------------------------
+main $*
